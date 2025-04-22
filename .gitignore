@@ -1,0 +1,34 @@
+# Ignore virtual environment
+djangoRender/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Django stuff
+*.log
+*.pot
+*.pyc
+*.sqlite3
+*.db
+
+# VSCode settings
+.vscode/
+
+# Environment variables
+.env
+.env.*
+
+# Compiled or temporary files
+*.bak
+*.swp
+*.tmp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Migrations (optional - if you regenerate frequently)
+**/migrations/*.pyc
+**/migrations/__pycache__/
